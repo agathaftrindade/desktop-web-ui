@@ -1,0 +1,18 @@
+.Taskbar {
+    height: 30px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #eee;
+}
+
+.TaskbarEntry {
+    border: 1px solid #555;
+    display: inline;
+    padding: 5px 5px;
+    margin: 5px;
+
+    &.visible {
+        font-weight: bold;
+    }
+}

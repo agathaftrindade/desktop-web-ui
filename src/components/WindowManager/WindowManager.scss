@@ -1,0 +1,41 @@
+.WindowManager {
+    height: 90%;
+    background-color: #eee;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.DesktopIcon {
+    width: 5em;
+    height: 5em;
+
+    .Icon {
+        border: 1px solid gray;
+        width: 2.5em;
+        height: 2.5em;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        --ggs: 1.5;
+
+        i{
+            // position: absolute;
+            margin: auto;
+            top:30%;
+            // margin-left: auto;
+            // margin-right: auto;
+        }
+    }
+
+    .Text {
+        text-align: center;
+    }
+}
+
+.AppWindow {
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 30%;
+}
